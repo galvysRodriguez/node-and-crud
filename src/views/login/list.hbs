@@ -1,0 +1,50 @@
+<h3>publication onlist</h3>
+<div>
+    <div>{{#each publicationonlist}}
+        <div>
+            <div>
+                <div class="contain">
+                    <div >
+                    <h2>eee</h2>
+                    <h6>{{title}}</h6>
+                    <img src="{{img}}" alt="{{id}}">
+                    <b>{{ubication}}</b>
+                    <div>
+                        <b>{{price}}</b>
+                    </div>
+                    <p>{{description}}</p>
+                </div>
+                <div>
+                <a class="btn btn-danger" href="/publication/delete/{{id}}">Delete Link</a>
+                </div>
+                <div>
+                    <a class="btn btn-secondary" href="/publication/edit/{{id}}">Edit</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>{{/each}}
+</div>
+
+<h3>publication mysales</h3>
+<div>
+    <div>{{#each mysend}}
+        <div>
+            <div >
+                <div>
+                    <div class="contain">
+                        <div> 
+                    <h6>{{title}}</h6>
+                    <img src="{{img}}" alt="{{id}}">
+                    <b>{{ubication}}</b>
+                        <div>
+                        <b>{{price}}</b>
+                        </div>
+                    </div>
+                    <p>{{description}}</p>
+                </div>
+            </div>
+        </div> 
+    </div>{{/each}}
+</div>
+

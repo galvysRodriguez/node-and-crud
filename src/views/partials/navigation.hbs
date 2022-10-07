@@ -1,0 +1,24 @@
+{{#if user}}<div class="topnav" id="myTopnav">
+        <a href="http://localhost:4000/" class="active">Home</a>
+        <a href="http://localhost:4000/publication">Articles</a>
+        <a href="http://localhost:4000/login">profile</a>
+         <a href="http://localhost:4000/publication/myshopping">shopping</a>
+          <a href="http://localhost:4000/publication/mysales">sales</a>
+          <a href="http://localhost:4000/publication/create">create</a>
+          <a href="http://localhost:4000/logout">log out</a>
+
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+{{else}}
+      <div class="topnav" id="myTopnav">
+        <a href="http://localhost:4000/" class="active">Home</a>
+        <a href="http://localhost:4000/publication">Articles</a>
+        <a href="http://localhost:4000/login">login</a>
+         <a href="http://localhost:4000/register">register</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+{{/if}}

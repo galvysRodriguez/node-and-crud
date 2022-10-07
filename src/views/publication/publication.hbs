@@ -1,0 +1,27 @@
+<div>
+    <h2>Post</h2>
+    <div><form action="" class="lup">
+        <input type="search" required class="search">
+        <i class="fa fa-search"></i>
+    </form>
+        <div>
+            {{#each genpublication}}
+            <div class="contain">
+                <div>
+                    <form action="/publication/myshopping/{{id}}" method="post" >
+                    <h2>eee</h2>
+                    <h6>{{title}}</h6>
+                    <img src="{{img}}" alt="{{id}}">
+                    <b>{{ubication}}</b>
+                    <div>
+                        <b>{{price}}</b>
+                    </div>
+                    <p>{{description}}</p>
+                    <button>buy</button>
+                </div>
+                </form>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
